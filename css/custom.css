@@ -1,0 +1,256 @@
+.logo-area img{
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+    mix-blend-mode: normal
+}
+@media only screen and (max-width: 575px)
+{
+    .logo-area img {
+        max-width: 100%;        
+        margin-top: -21px ;
+        margin-left: 10px;}
+}
+
+.register-form{
+    border-radius: 1.2rem;
+}
+.register-form .form-title:after{
+    border-radius: 1.2rem;
+}
+@media (min-width: 1200px)
+{
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1265px;
+    }
+}
+#rs-header.rs-transfarent-header-style .menu-sticky.sticky {
+    background: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#rs-header.rs-transfarent-header-style .menu-area .rs-menu .nav-menu > li > a {
+    color: #000000;
+}
+#rs-header.rs-transfarent-header-style .menu-area .rs-menu .nav-menu > li > a:hover {
+    color: #fe0000;
+}
+.countdown-part{
+    padding-top: 190px;
+}
+.rs-banner-section3 .countdown-part .title{
+    font-size: 46px;
+    line-height: 45px;
+}
+.rs-courses.rs-courses-style7-new2 .cource-item .cource-img .course-value {
+    bottom: 0;
+    right: 0;
+    height: 30px;
+    width: 110px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #fe0000;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 5px 0 0 5px;
+}
+.about_button, .about_button a{
+    padding: 0 28px;
+    border-radius: 35px;
+    line-height: 40px;
+    height: auto;
+    color: #ffffff;
+    background: #fe0000;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.about-widget img{
+    width: 70%;
+    height: 110px;
+    object-fit: cover;
+    mix-blend-mode: normal
+}
+.rs-footer .footer-contact-desc .contact-inner .contact-desc a{
+    color: #ffffff;
+    transition: all 0.3s ease 0s;
+    text-decoration: none !important;
+    outline: none !important;
+}
+.rs-footer .footer-contact-desc .contact-inner .contact-desc a:hover{
+        color: #fe0000;
+}
+.course_button, .course_button a{
+    padding: 0 28px;
+    border-radius: 35px;
+    line-height: 40px;
+    height: auto;
+    color: #ffffff;
+    background: #fe0000;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;  
+    left: 20%;
+}
+.cource-item{
+    padding-bottom: 30px;
+}
+
+.about-desc ul{
+    list-style: none;
+    margin: 0;
+    flex-wrap: wrap;
+    display: flex;
+    padding-top: 0;
+}
+.about-desc ul li{
+    flex-basis: 40%;
+    position: relative;
+    padding-left: 24px;
+    padding-bottom: 7px;
+}
+.about-desc ul li:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    content: "\f05d";
+    font-family: FontAwesome;
+    color: #ff3115;
+    transition: all .5s ease;
+}
+
+@media only screen and (max-width: 481px){
+    .countdown-part {
+        padding-top: 0px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .logo-area img{
+        margin-top: -35px;
+    }
+    .countdown-part {
+        padding-top: 0px;
+    }
+    .about-widget img{
+        width: 70%;
+        height: 170px;
+        object-fit: cover;
+        mix-blend-mode: normal
+    }
+    
+}
+.inner-page .rs-menu ul.nav-menu > li, .home3 .rs-menu ul.nav-menu > li, .home1 .rs-menu ul.nav-menu > li {
+     margin-right: 0; 
+}
+.rs-courses-details .sidebar-area .course-features-info{
+    background: rgb(2 2 2 / 91%);
+}
+.sidebar-area .course-features-info .desc-title {
+    color: #fe0000;
+    margin: 10px 0 30px;
+    font-size: 35px;
+}
+
+.rs-courses-details .sidebar-area .course-features-info .form-group .from-control {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    height: 50px;
+    line-height: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 15px;
+    padding: 10px 14px;
+    border: 1px solid rgba(54, 54, 54, 0.1);
+    outline: 0;
+}
+.rs-courses-details .sidebar-area .course-features-info .form-group input[type=submit] {
+    width: 40%;
+    margin-bottom: 50px;
+    border-radius: 3px;
+    height: 50px;
+    line-height: 50px;
+    -webkit-appearance: button;
+    cursor: pointer;
+    background: #fe0000;
+    border: 0;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    outline: 0;
+    transition: 0.4s;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.rs-courses-details .sidebar-area .course-features-info:hover {
+    border: 2px solid #fe0000;
+    padding: 20px;
+    border-radius: 1.5rem;
+    box-shadow: 5px 5px 5px 5px #a5a3a3;
+}
+
+.gallery-item img{
+    width: 290px;
+    height: 290px;
+    object-fit: cover;
+}
+.gallery1 img{
+    width: 100% !important;
+    height: 290px;
+    object-fit: contain;
+    object-position: center;
+}
+.contact-comment-section{
+    border: 2px solid #fe0000;
+    padding: 20px;
+    border-radius: 1.5rem;
+    box-shadow: 10px 10px 10px 10px #a5a3a3
+    
+}
+
+.rs-footer .footer-top .about-widget p{
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+.rs-courses-details .btn-area span{
+    background: #fe0000;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+.choose-desc .why-choose li:before{
+    order: none !important;
+    color: #ff3115;
+    content: "\f101";
+    font-family: fontawesome;
+    font-size: 14px !important;
+    font-size: 9px;
+    margin-right: 10px;
+    padding: 0;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    box-sizing: border-box;
+}
+.choose-desc .why-choose li{
+    position: relative;
+    padding-left: 20px;
+}
+
+.gallery-item{
+    padding: 5px;
+}
+.team-desc{
+    font-size: 15px;
+}
